@@ -23,3 +23,22 @@ for(j=1;j<=5;j++){
         console.log(print)
         print=""
 }
+
+console.log("")
+console.log("Level 2")
+print=""
+var rows = 5; 
+for(var i=0; i<rows; i++)
+{
+ for(var k=1; k<=(rows-i);k++)
+{
+  print +=" "
+ }
+ for(var j=1; j<=(2*i+1); j++)
+ {
+  print += "*"
+ }
+ print += "\n"
+}
+console.log(print)
+

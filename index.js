@@ -42,3 +42,18 @@ for(var i=0; i<rows; i++)
 }
 console.log(print)
 
+console.log("")
+console.log("Level 3")
+print=""
+var rows = 5; 
+for(var i=0; i<rows; i++)
+{
+ for(var k=1; k<=i;k++)
+{
+  print +=" "
+ }
+ print +="*** "
+ print += 5-i
+ print += "\n"
+}
+console.log(print)

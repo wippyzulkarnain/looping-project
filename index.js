@@ -60,22 +60,35 @@
 
 
 
+// console.log("")
+// console.log("Level 4")
+// print=""
+// var rows = 5; 
+// for(var i=0; i<rows; i++)
+// {
+//  for(var k=1; k<=i;k++)
+// {
+//   print +=" "
+//  }
+//  for(var j=1; j<(10-(i*2)) ; j++)
+//  {
+//   print += "*"
+//  }
+//  print += "\n"
+// }
+// console.log(print)
+
+
 console.log("")
 console.log("Level 4")
 print=""
-var rows = 5; 
-for(var i=0; i<rows; i++)
-{
- for(var k=1; k<=i;k++)
-{
-  print +=" "
- }
- for(var j=1; j<(10-(i*2)) ; j++)
- {
-  print += "*"
- }
- print += "\n"
+for (i=5; i>0 ;i--){
+    for (j=1 ; j<=2 ;j++){
+        print += i-1
+    }
+    for (k=i; k>0;k--){
+        print += i+1
+    }
+    print += "\n"
 }
 console.log(print)
-
-
